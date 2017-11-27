@@ -1,8 +1,9 @@
 public class Report4 {
     public static void main(String[] args) {
-        String str = null;
+        String str = "3．14";
+        Double value;
         try {
-            System.out.println(str.length());
+            value = Double.parseDouble(str);
         }catch (NullPointerException e) {
             System.out.println("NullPointerExceptionが発生しました");
             System.out.println(e.getMessage());
